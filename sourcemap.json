@@ -1,0 +1,1 @@
+{"name":"Argon","className":"DataModel","filePaths":[".argon.project.json"],"children":[{"name":"ServerScriptService","className":"ServerScriptService","children":[{"name":"Script","className":"Script","filePaths":["src/ServerScriptService/Script.server.luau"]}]}]}
