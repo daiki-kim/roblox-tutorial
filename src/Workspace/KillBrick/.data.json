@@ -1,0 +1,14 @@
+{
+  "className": "Part",
+  "properties": {
+    "BottomSurface": "Smooth",
+    "CFrame": [12, 0.500001, 5, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+    "CastShadow": false,
+    "Color": {
+      "Color3uint8": [255, 89, 89]
+    },
+    "Material": "Neon",
+    "Size": [42, 1, 2],
+    "TopSurface": "Smooth"
+  }
+}
