@@ -13,27 +13,33 @@
 --     end)
 -- end
 
-local Debris = game:GetService("Debris")
+-- local Debris = game:GetService("Debris")
 
-local partCount = 0
+-- local partCount = 0
 
-while true do
+-- while true do
     
-    if partCount >= 400 then
-        break
+--     if partCount >= 400 then
+--         break
+--     end
+
+--     partCount = partCount +1
+    
+--     local part = Instance.new("Part")
+--     part.Parent = game.Workspace
+
+--     local romdomX = math.random(-200, 200)
+--     local romdomZ = math.random(-200, 200)
+    
+--     part.Position = Vector3.new(romdomX, 50, romdomZ)
+    
+--     Debris:AddItem(part, 20)
+
+--     task.wait(0.1)
+-- end
+
+for i, v in pairs(script.Parent:GetChildren()) do
+    if v:isA("ParticleEmitter") then
+        v:Destroy()
     end
-
-    partCount = partCount +1
-    
-    local part = Instance.new("Part")
-    part.Parent = game.Workspace
-
-    local romdomX = math.random(-200, 200)
-    local romdomZ = math.random(-200, 200)
-    
-    part.Position = Vector3.new(romdomX, 50, romdomZ)
-    
-    Debris:AddItem(part, 20)
-
-    task.wait(0.1)
 end
